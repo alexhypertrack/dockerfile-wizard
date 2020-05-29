@@ -33,6 +33,10 @@ if [ ! -e $PYTHON_VERSION_NUM ] ; then
     make install"
 fi
 
+# if [ ! -e $PHP_VERSION_NUM ] ; then
+#     wget "http://php.net/distributions/php-${PHP_VERSION_NUM}.tar.xz"
+# fi
+
 if [ $JAVA = "true" ] ; then
 cat << EOF
 RUN if [ \$(grep 'VERSION_ID="8"' /etc/os-release) ] ; then \\
@@ -126,4 +130,5 @@ RUN apt-get -y install libgconf-2-4 \
   && mv chromedriver /usr/local/bin/chromedriver \
   && chmod +x /usr/local/bin/chromedriver"
 fi
+
 
