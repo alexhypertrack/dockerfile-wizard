@@ -1,6 +1,6 @@
 image_config: &image_config
 
-  # make sure to set your Docker Hub username & password in CircleCI,
+  # make sure to set your Docker Hub username & password in CircleCI, j
   # either as project-specific environment variables
   # or as resources in your organization's org-global Context
 
