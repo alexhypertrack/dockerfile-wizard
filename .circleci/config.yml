@@ -15,22 +15,6 @@ image_config: &image_config
 
   LINUX_VERSION: UBUNTU_TRUSTY
 
-  # RUBY_VERSION_NUM: # pick a version from https://cache.ruby-lang.org/pub/ruby
-
-  NODE_VERSION_NUM: 10.16.0
-
-  PYTHON_VERSION_NUM: 3.7.3
-
-  JAVA: false
-
-  MYSQL_CLIENT: false
-
-  POSTGRES_CLIENT: false
-
-  DOCKERIZE: true
-
-  BROWSERS: false
-
 version: 2
 jobs:
   build:
